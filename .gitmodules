@@ -4,3 +4,6 @@
 [submodule "MarkGotham_xml"]
 	path = MarkGotham_xml
 	url = https://github.com/MarkGotham/Chorale-Corpus.git
+[submodule "DCMLab_cap"]
+	path = DCMLab_cap
+	url = https://github.com/DCMLab/bach_chorales.git
