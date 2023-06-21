@@ -1,0 +1,1237 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw#",
+    {
+      "@language": "en "
+    }
+  ],
+  "dc:title": "Measure tables for MarkGotham_xml",
+  "dialect": {
+    "delimiter": "\t"
+  },
+  "dc:description": "One feature matrix per score, containing one line per stack of <Measure> tags in the score's XML tree. They are counted in the column 'mc' starting from 1, whereas the conventional measure numbers are shown in the column 'mn'. One MN is frequently composed in two (or more) MCs. Furthermore, these tables include special bar lines, repeat signs, first and second endings, irregular measure lengths, as well as the column 'next' which contains follow-up MCs for unfolding a score's repeat structure. For more information, please refer to the docs at https://johentsch.github.io/ms3/columns",
+  "dc:created": "2023-06-21T11:04:04",
+  "dc:creator": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "SoftwareApplication",
+      "@id": "https://github.com/johentsch/ms3",
+      "name": "ms3",
+      "description": "A parser for MuseScore 3 files.",
+      "author": {
+        "name": "Johannes Hentschel",
+        "@id": "https://orcid.org/0000-0002-1986-9545"
+      },
+      "softwareVersion": "1.2.10"
+    }
+  ],
+  "tables": [
+    {
+      "url": "001.tsv"
+    },
+    {
+      "url": "002.tsv"
+    },
+    {
+      "url": "003.tsv"
+    },
+    {
+      "url": "004.tsv"
+    },
+    {
+      "url": "005.tsv"
+    },
+    {
+      "url": "006.tsv"
+    },
+    {
+      "url": "007.tsv"
+    },
+    {
+      "url": "008.tsv"
+    },
+    {
+      "url": "009.tsv"
+    },
+    {
+      "url": "010.tsv"
+    },
+    {
+      "url": "011.tsv"
+    },
+    {
+      "url": "012.tsv"
+    },
+    {
+      "url": "013.tsv"
+    },
+    {
+      "url": "014.tsv"
+    },
+    {
+      "url": "015.tsv"
+    },
+    {
+      "url": "016.tsv"
+    },
+    {
+      "url": "017.tsv"
+    },
+    {
+      "url": "018.tsv"
+    },
+    {
+      "url": "019.tsv"
+    },
+    {
+      "url": "020.tsv"
+    },
+    {
+      "url": "021.tsv"
+    },
+    {
+      "url": "022.tsv"
+    },
+    {
+      "url": "023.tsv"
+    },
+    {
+      "url": "024.tsv"
+    },
+    {
+      "url": "025.tsv"
+    },
+    {
+      "url": "026.tsv"
+    },
+    {
+      "url": "027.tsv"
+    },
+    {
+      "url": "028.tsv"
+    },
+    {
+      "url": "029.tsv"
+    },
+    {
+      "url": "030.tsv"
+    },
+    {
+      "url": "031.tsv"
+    },
+    {
+      "url": "032.tsv"
+    },
+    {
+      "url": "033.tsv"
+    },
+    {
+      "url": "034.tsv"
+    },
+    {
+      "url": "035.tsv"
+    },
+    {
+      "url": "036.tsv"
+    },
+    {
+      "url": "037.tsv"
+    },
+    {
+      "url": "038.tsv"
+    },
+    {
+      "url": "039.tsv"
+    },
+    {
+      "url": "040.tsv"
+    },
+    {
+      "url": "041.tsv"
+    },
+    {
+      "url": "042.tsv"
+    },
+    {
+      "url": "043.tsv"
+    },
+    {
+      "url": "044.tsv"
+    },
+    {
+      "url": "045.tsv"
+    },
+    {
+      "url": "046.tsv"
+    },
+    {
+      "url": "047.tsv"
+    },
+    {
+      "url": "048.tsv"
+    },
+    {
+      "url": "049.tsv"
+    },
+    {
+      "url": "050.tsv"
+    },
+    {
+      "url": "051.tsv"
+    },
+    {
+      "url": "052.tsv"
+    },
+    {
+      "url": "053.tsv"
+    },
+    {
+      "url": "054.tsv"
+    },
+    {
+      "url": "055.tsv"
+    },
+    {
+      "url": "056.tsv"
+    },
+    {
+      "url": "057.tsv"
+    },
+    {
+      "url": "058.tsv"
+    },
+    {
+      "url": "059.tsv"
+    },
+    {
+      "url": "060.tsv"
+    },
+    {
+      "url": "061.tsv"
+    },
+    {
+      "url": "062.tsv"
+    },
+    {
+      "url": "063.tsv"
+    },
+    {
+      "url": "064.tsv"
+    },
+    {
+      "url": "065.tsv"
+    },
+    {
+      "url": "066.tsv"
+    },
+    {
+      "url": "067.tsv"
+    },
+    {
+      "url": "068.tsv"
+    },
+    {
+      "url": "069.tsv"
+    },
+    {
+      "url": "070.tsv"
+    },
+    {
+      "url": "071.tsv"
+    },
+    {
+      "url": "072.tsv"
+    },
+    {
+      "url": "073.tsv"
+    },
+    {
+      "url": "074.tsv"
+    },
+    {
+      "url": "075.tsv"
+    },
+    {
+      "url": "076.tsv"
+    },
+    {
+      "url": "077.tsv"
+    },
+    {
+      "url": "078.tsv"
+    },
+    {
+      "url": "079.tsv"
+    },
+    {
+      "url": "080.tsv"
+    },
+    {
+      "url": "081.tsv"
+    },
+    {
+      "url": "082.tsv"
+    },
+    {
+      "url": "083.tsv"
+    },
+    {
+      "url": "084.tsv"
+    },
+    {
+      "url": "085.tsv"
+    },
+    {
+      "url": "086.tsv"
+    },
+    {
+      "url": "087.tsv"
+    },
+    {
+      "url": "088.tsv"
+    },
+    {
+      "url": "089.tsv"
+    },
+    {
+      "url": "090.tsv"
+    },
+    {
+      "url": "091.tsv"
+    },
+    {
+      "url": "092.tsv"
+    },
+    {
+      "url": "093.tsv"
+    },
+    {
+      "url": "094.tsv"
+    },
+    {
+      "url": "095.tsv"
+    },
+    {
+      "url": "096.tsv"
+    },
+    {
+      "url": "097.tsv"
+    },
+    {
+      "url": "098.tsv"
+    },
+    {
+      "url": "099.tsv"
+    },
+    {
+      "url": "1-120.tsv"
+    },
+    {
+      "url": "100.tsv"
+    },
+    {
+      "url": "101.tsv"
+    },
+    {
+      "url": "102.tsv"
+    },
+    {
+      "url": "103.tsv"
+    },
+    {
+      "url": "104.tsv"
+    },
+    {
+      "url": "105.tsv"
+    },
+    {
+      "url": "106.tsv"
+    },
+    {
+      "url": "107.tsv"
+    },
+    {
+      "url": "108.tsv"
+    },
+    {
+      "url": "109.tsv"
+    },
+    {
+      "url": "110.tsv"
+    },
+    {
+      "url": "111.tsv"
+    },
+    {
+      "url": "112.tsv"
+    },
+    {
+      "url": "113.tsv"
+    },
+    {
+      "url": "114.tsv"
+    },
+    {
+      "url": "115.tsv"
+    },
+    {
+      "url": "116.tsv"
+    },
+    {
+      "url": "117.tsv"
+    },
+    {
+      "url": "118.tsv"
+    },
+    {
+      "url": "119.tsv"
+    },
+    {
+      "url": "120.tsv"
+    },
+    {
+      "url": "121.tsv"
+    },
+    {
+      "url": "122.tsv"
+    },
+    {
+      "url": "123.tsv"
+    },
+    {
+      "url": "124.tsv"
+    },
+    {
+      "url": "125.tsv"
+    },
+    {
+      "url": "126.tsv"
+    },
+    {
+      "url": "127.tsv"
+    },
+    {
+      "url": "128.tsv"
+    },
+    {
+      "url": "129.tsv"
+    },
+    {
+      "url": "130.tsv"
+    },
+    {
+      "url": "131.tsv"
+    },
+    {
+      "url": "132.tsv"
+    },
+    {
+      "url": "133.tsv"
+    },
+    {
+      "url": "134.tsv"
+    },
+    {
+      "url": "135.tsv"
+    },
+    {
+      "url": "136.tsv"
+    },
+    {
+      "url": "137.tsv"
+    },
+    {
+      "url": "138.tsv"
+    },
+    {
+      "url": "139.tsv"
+    },
+    {
+      "url": "140.tsv"
+    },
+    {
+      "url": "141.tsv"
+    },
+    {
+      "url": "142.tsv"
+    },
+    {
+      "url": "143.tsv"
+    },
+    {
+      "url": "144.tsv"
+    },
+    {
+      "url": "145.tsv"
+    },
+    {
+      "url": "146.tsv"
+    },
+    {
+      "url": "147.tsv"
+    },
+    {
+      "url": "148.tsv"
+    },
+    {
+      "url": "149.tsv"
+    },
+    {
+      "url": "150.tsv"
+    },
+    {
+      "url": "151.tsv"
+    },
+    {
+      "url": "152.tsv"
+    },
+    {
+      "url": "153.tsv"
+    },
+    {
+      "url": "154.tsv"
+    },
+    {
+      "url": "155.tsv"
+    },
+    {
+      "url": "156.tsv"
+    },
+    {
+      "url": "157.tsv"
+    },
+    {
+      "url": "158.tsv"
+    },
+    {
+      "url": "159.tsv"
+    },
+    {
+      "url": "160.tsv"
+    },
+    {
+      "url": "161.tsv"
+    },
+    {
+      "url": "162.tsv"
+    },
+    {
+      "url": "163.tsv"
+    },
+    {
+      "url": "164.tsv"
+    },
+    {
+      "url": "165.tsv"
+    },
+    {
+      "url": "166.tsv"
+    },
+    {
+      "url": "167.tsv"
+    },
+    {
+      "url": "168.tsv"
+    },
+    {
+      "url": "169.tsv"
+    },
+    {
+      "url": "170.tsv"
+    },
+    {
+      "url": "171.tsv"
+    },
+    {
+      "url": "172.tsv"
+    },
+    {
+      "url": "173.tsv"
+    },
+    {
+      "url": "174.tsv"
+    },
+    {
+      "url": "175.tsv"
+    },
+    {
+      "url": "176.tsv"
+    },
+    {
+      "url": "177.tsv"
+    },
+    {
+      "url": "178.tsv"
+    },
+    {
+      "url": "179.tsv"
+    },
+    {
+      "url": "180.tsv"
+    },
+    {
+      "url": "181.tsv"
+    },
+    {
+      "url": "182.tsv"
+    },
+    {
+      "url": "183.tsv"
+    },
+    {
+      "url": "184.tsv"
+    },
+    {
+      "url": "185.tsv"
+    },
+    {
+      "url": "186.tsv"
+    },
+    {
+      "url": "187.tsv"
+    },
+    {
+      "url": "188.tsv"
+    },
+    {
+      "url": "189.tsv"
+    },
+    {
+      "url": "190.tsv"
+    },
+    {
+      "url": "191.tsv"
+    },
+    {
+      "url": "192.tsv"
+    },
+    {
+      "url": "193.tsv"
+    },
+    {
+      "url": "194.tsv"
+    },
+    {
+      "url": "195.tsv"
+    },
+    {
+      "url": "196.tsv"
+    },
+    {
+      "url": "197.tsv"
+    },
+    {
+      "url": "198.tsv"
+    },
+    {
+      "url": "199.tsv"
+    },
+    {
+      "url": "200.tsv"
+    },
+    {
+      "url": "201.tsv"
+    },
+    {
+      "url": "202.tsv"
+    },
+    {
+      "url": "203.tsv"
+    },
+    {
+      "url": "204.tsv"
+    },
+    {
+      "url": "205.tsv"
+    },
+    {
+      "url": "206.tsv"
+    },
+    {
+      "url": "207.tsv"
+    },
+    {
+      "url": "208.tsv"
+    },
+    {
+      "url": "209.tsv"
+    },
+    {
+      "url": "210.tsv"
+    },
+    {
+      "url": "211.tsv"
+    },
+    {
+      "url": "212.tsv"
+    },
+    {
+      "url": "213.tsv"
+    },
+    {
+      "url": "214.tsv"
+    },
+    {
+      "url": "215.tsv"
+    },
+    {
+      "url": "216.tsv"
+    },
+    {
+      "url": "217.tsv"
+    },
+    {
+      "url": "218.tsv"
+    },
+    {
+      "url": "219.tsv"
+    },
+    {
+      "url": "220.tsv"
+    },
+    {
+      "url": "221.tsv"
+    },
+    {
+      "url": "222.tsv"
+    },
+    {
+      "url": "223.tsv"
+    },
+    {
+      "url": "224.tsv"
+    },
+    {
+      "url": "225.tsv"
+    },
+    {
+      "url": "226.tsv"
+    },
+    {
+      "url": "227.tsv"
+    },
+    {
+      "url": "228.tsv"
+    },
+    {
+      "url": "229.tsv"
+    },
+    {
+      "url": "230.tsv"
+    },
+    {
+      "url": "231.tsv"
+    },
+    {
+      "url": "232.tsv"
+    },
+    {
+      "url": "233.tsv"
+    },
+    {
+      "url": "234.tsv"
+    },
+    {
+      "url": "235.tsv"
+    },
+    {
+      "url": "236.tsv"
+    },
+    {
+      "url": "237.tsv"
+    },
+    {
+      "url": "238.tsv"
+    },
+    {
+      "url": "239.tsv"
+    },
+    {
+      "url": "240.tsv"
+    },
+    {
+      "url": "241.tsv"
+    },
+    {
+      "url": "242.tsv"
+    },
+    {
+      "url": "243.tsv"
+    },
+    {
+      "url": "244.tsv"
+    },
+    {
+      "url": "245.tsv"
+    },
+    {
+      "url": "246.tsv"
+    },
+    {
+      "url": "247.tsv"
+    },
+    {
+      "url": "248.tsv"
+    },
+    {
+      "url": "249.tsv"
+    },
+    {
+      "url": "250.tsv"
+    },
+    {
+      "url": "251.tsv"
+    },
+    {
+      "url": "252.tsv"
+    },
+    {
+      "url": "253.tsv"
+    },
+    {
+      "url": "254.tsv"
+    },
+    {
+      "url": "255.tsv"
+    },
+    {
+      "url": "256.tsv"
+    },
+    {
+      "url": "257.tsv"
+    },
+    {
+      "url": "258.tsv"
+    },
+    {
+      "url": "259.tsv"
+    },
+    {
+      "url": "260.tsv"
+    },
+    {
+      "url": "261.tsv"
+    },
+    {
+      "url": "262.tsv"
+    },
+    {
+      "url": "263.tsv"
+    },
+    {
+      "url": "264.tsv"
+    },
+    {
+      "url": "265.tsv"
+    },
+    {
+      "url": "266.tsv"
+    },
+    {
+      "url": "267.tsv"
+    },
+    {
+      "url": "268.tsv"
+    },
+    {
+      "url": "269.tsv"
+    },
+    {
+      "url": "270.tsv"
+    },
+    {
+      "url": "271.tsv"
+    },
+    {
+      "url": "272.tsv"
+    },
+    {
+      "url": "273.tsv"
+    },
+    {
+      "url": "274.tsv"
+    },
+    {
+      "url": "275.tsv"
+    },
+    {
+      "url": "276.tsv"
+    },
+    {
+      "url": "277.tsv"
+    },
+    {
+      "url": "278.tsv"
+    },
+    {
+      "url": "279.tsv"
+    },
+    {
+      "url": "280.tsv"
+    },
+    {
+      "url": "281.tsv"
+    },
+    {
+      "url": "282.tsv"
+    },
+    {
+      "url": "283.tsv"
+    },
+    {
+      "url": "284.tsv"
+    },
+    {
+      "url": "285.tsv"
+    },
+    {
+      "url": "286.tsv"
+    },
+    {
+      "url": "287.tsv"
+    },
+    {
+      "url": "288.tsv"
+    },
+    {
+      "url": "289.tsv"
+    },
+    {
+      "url": "290.tsv"
+    },
+    {
+      "url": "291.tsv"
+    },
+    {
+      "url": "292.tsv"
+    },
+    {
+      "url": "293.tsv"
+    },
+    {
+      "url": "294.tsv"
+    },
+    {
+      "url": "295.tsv"
+    },
+    {
+      "url": "296.tsv"
+    },
+    {
+      "url": "297.tsv"
+    },
+    {
+      "url": "298.tsv"
+    },
+    {
+      "url": "299.tsv"
+    },
+    {
+      "url": "300.tsv"
+    },
+    {
+      "url": "301.tsv"
+    },
+    {
+      "url": "302.tsv"
+    },
+    {
+      "url": "303.tsv"
+    },
+    {
+      "url": "304.tsv"
+    },
+    {
+      "url": "305.tsv"
+    },
+    {
+      "url": "306.tsv"
+    },
+    {
+      "url": "307.tsv"
+    },
+    {
+      "url": "308.tsv"
+    },
+    {
+      "url": "309.tsv"
+    },
+    {
+      "url": "310.tsv"
+    },
+    {
+      "url": "311.tsv"
+    },
+    {
+      "url": "312.tsv"
+    },
+    {
+      "url": "313.tsv"
+    },
+    {
+      "url": "314.tsv"
+    },
+    {
+      "url": "315.tsv"
+    },
+    {
+      "url": "316.tsv"
+    },
+    {
+      "url": "317.tsv"
+    },
+    {
+      "url": "318.tsv"
+    },
+    {
+      "url": "319.tsv"
+    },
+    {
+      "url": "320.tsv"
+    },
+    {
+      "url": "321.tsv"
+    },
+    {
+      "url": "322.tsv"
+    },
+    {
+      "url": "323.tsv"
+    },
+    {
+      "url": "324.tsv"
+    },
+    {
+      "url": "325.tsv"
+    },
+    {
+      "url": "326.tsv"
+    },
+    {
+      "url": "327.tsv"
+    },
+    {
+      "url": "328.tsv"
+    },
+    {
+      "url": "329.tsv"
+    },
+    {
+      "url": "330.tsv"
+    },
+    {
+      "url": "331.tsv"
+    },
+    {
+      "url": "332.tsv"
+    },
+    {
+      "url": "333.tsv"
+    },
+    {
+      "url": "334.tsv"
+    },
+    {
+      "url": "335.tsv"
+    },
+    {
+      "url": "336.tsv"
+    },
+    {
+      "url": "337.tsv"
+    },
+    {
+      "url": "338.tsv"
+    },
+    {
+      "url": "339.tsv"
+    },
+    {
+      "url": "340.tsv"
+    },
+    {
+      "url": "341.tsv"
+    },
+    {
+      "url": "342.tsv"
+    },
+    {
+      "url": "343.tsv"
+    },
+    {
+      "url": "344.tsv"
+    },
+    {
+      "url": "345.tsv"
+    },
+    {
+      "url": "346.tsv"
+    },
+    {
+      "url": "347.tsv"
+    },
+    {
+      "url": "348.tsv"
+    },
+    {
+      "url": "349.tsv"
+    },
+    {
+      "url": "350.tsv"
+    },
+    {
+      "url": "351.tsv"
+    },
+    {
+      "url": "352.tsv"
+    },
+    {
+      "url": "353.tsv"
+    },
+    {
+      "url": "354.tsv"
+    },
+    {
+      "url": "355.tsv"
+    },
+    {
+      "url": "356.tsv"
+    },
+    {
+      "url": "357.tsv"
+    },
+    {
+      "url": "358.tsv"
+    },
+    {
+      "url": "359.tsv"
+    },
+    {
+      "url": "360.tsv"
+    },
+    {
+      "url": "361.tsv"
+    },
+    {
+      "url": "362.tsv"
+    },
+    {
+      "url": "363.tsv"
+    },
+    {
+      "url": "364.tsv"
+    },
+    {
+      "url": "365.tsv"
+    },
+    {
+      "url": "366.tsv"
+    },
+    {
+      "url": "367.tsv"
+    },
+    {
+      "url": "368.tsv"
+    },
+    {
+      "url": "369.tsv"
+    },
+    {
+      "url": "370.tsv"
+    },
+    {
+      "url": "371.tsv"
+    },
+    {
+      "url": "bwv69.6.tsv"
+    },
+    {
+      "url": "test.tsv"
+    }
+  ],
+  "tableSchema": {
+    "columns": [
+      {
+        "titles": "mc",
+        "datatype": "integer",
+        "dc:description": "Measure count."
+      },
+      {
+        "titles": "mn",
+        "datatype": "string",
+        "dc:description": "Measure number."
+      },
+      {
+        "titles": "quarterbeats",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "quarterbeats_all_endings",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "duration_qb",
+        "datatype": "float"
+      },
+      {
+        "titles": "keysig",
+        "datatype": "integer"
+      },
+      {
+        "titles": "timesig",
+        "datatype": "string"
+      },
+      {
+        "titles": "act_dur",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "mc_offset",
+        "datatype": {
+          "base": "string",
+          "format": "-?\\d+(?:\\/\\d+)?"
+        }
+      },
+      {
+        "titles": "volta",
+        "datatype": "integer"
+      },
+      {
+        "titles": "numbering_offset",
+        "datatype": "integer"
+      },
+      {
+        "titles": "dont_count",
+        "datatype": "integer"
+      },
+      {
+        "titles": "barline",
+        "datatype": "string"
+      },
+      {
+        "titles": "breaks",
+        "datatype": "string"
+      },
+      {
+        "titles": "repeats",
+        "datatype": "string"
+      },
+      {
+        "titles": "next",
+        "datatype": {
+          "base": "string",
+          "format": "\\(-?\\d+, ?-?\\d+\\)"
+        }
+      }
+    ]
+  }
+}
