@@ -1,3 +1,5 @@
+"""This file contains functions used by several scripts/notebooks."""
+
 import os
 
 
