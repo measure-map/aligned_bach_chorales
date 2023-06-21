@@ -1,4 +1,4 @@
-Riemenschneider,krn_title,krn_file,ms_file,dcml_file,bwv,BWV,D,B,CPE,R,Text,Text Author,Tune,Tune Composer,Zahn,Liturgical Occasion,Other Settings (BWV)
+Riemenschneider,krn_title,krn_file,xml_file,dcml_file,bwv,BWV,D,B,CPE,R,Text,Text Author,Tune,Tune Composer,Zahn,Liturgical Occasion,Other Settings (BWV)
 1,Aus meines Herzens Grunde,chor001.krn,001/short_score.mxl,001 Aus meines Herzens Grunde.mscx,269,269,,1,1,1,Aus meines Herzens Grunde,"Niege, Georg",Aus meines Herzens Grunde,Anonymous,5269,Unknown,0
 2,"Ich dank dir, lieber Herre",chor002.krn,002/short_score.mxl,"002 Ich danke dir, lieber Herre.mscx",347,347,,2,2,2,"Ich dank dir, lieber Herre","Kolros, Johann","Ich dank dir, lieber Herre",Anonymous,5354b,Unknown,"2 (37.6, 348)"
 3,Ach Gott vom Himmel sieh darein,chor003.krn,003/short_score.mxl,"003 Ach Gott, vom Himmel sieh darein.mscx",153.1,153.1,,3,3,3,"Schau, lieber Gott, wie meine Feind (1)","Denicke, David","Ach Gott, vom Himmel sieh darein",Erfurt 1524*,4431,Sunday after New Year,"2 (2.6, 77.6)"

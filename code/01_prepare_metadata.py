@@ -121,7 +121,7 @@ riemenschneider.insert(3, "CPE", make_integer_column(riemenschneider.B))
 riemenschneider = pd.concat([
     krn_metadata.title.rename('krn_title'),
     pd.Series([f"chor{str(i).zfill(3)}.krn" if i != 150 else None for i in range(1, 372)], index=riemenschneider.index, name='krn_file'),
-    pd.Series([f"{str(i).zfill(3)}/short_score.mxl" for i in range(1, 372)], index=riemenschneider.index, name='ms_file'),
+    pd.Series([f"{str(i).zfill(3)}/short_score.mxl" for i in range(1, 372)], index=riemenschneider.index, name='xml_file'),
     pd.Series(title_list, index=riemenschneider.index, name='dcml_file'),
     make_bwv_column(riemenschneider.BWV).rename('bwv'),
     riemenschneider
