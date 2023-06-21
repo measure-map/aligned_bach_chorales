@@ -84,7 +84,7 @@ get_pcv(CAP[1])
 def get_concatenated_pcvs(notes_dict: Dict[str, pd.DataFrame],
                           name: str,
                           column: str = 'tpc',
-                          n_mcs: Optional[int] = None,
+                          n_mcs: Optional[int] = 2,
                          ) -> pd.DataFrame:
     """Calls get_pcv() on each notes table and concatenates one PCV row per piece."""
     pcvs = {number: get_pcv(df, column=column, n_mcs=n_mcs) for number, df in notes_dict.items()}
