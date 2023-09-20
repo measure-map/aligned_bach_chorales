@@ -1,2 +1,3 @@
 *.ipynb
 *.autosave
+__pycache__

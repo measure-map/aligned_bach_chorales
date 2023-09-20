@@ -1,4 +1,4 @@
-pandas==1.5.3
-ms3==1.2.10
+pandas<2.1.0
+ms3>=2.2.1
 requests==2.30.0
 ipython==8.11.0

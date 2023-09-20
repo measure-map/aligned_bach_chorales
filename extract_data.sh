@@ -456,7 +456,6 @@ function parse_params() {
 }
 
 function convert() {
-    # make musicxml
     ms3 convert -o data --format mscz --extensions mscx xml mxl # requires ms3 & MuseScore
 }
 
@@ -477,7 +476,7 @@ function rename() {
 }
 
 function extract() {
-    ms3 extract -a -d data -M measures -N notes -D
+    ms3 extract -a -d data -M measures -MM measures -N notes -D
 }
 
 # DESC: Main control flow
@@ -492,7 +491,9 @@ function main() {
     cron_init
     colour_init
     #lock_init system
-    #convert
+    # before running this make sure to head to the craigsapp_krn submodule and run `make musicxml`
+    # (requires [humextra](https://github.com/craigsapp/humextra))
+    convert
     rename
     extract
 }

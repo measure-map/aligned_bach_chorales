@@ -60,12 +60,12 @@ Each of the three directories in `data` furthermore contains two folders with th
 * `measures`: One tabular file per chorale with one row per measure.
 * `notes`: One tabular file per chorale with one row per note head.
 
-The meaning of the columns is explained in the [ms3 documentation](https://johentsch.github.io/ms3/columns).
+The meaning of the columns is explained in the [ms3 documentation](https://ms3.readthedocs.io/columns).
 
 ### `code`
 
 The Python code relies only on the `data` folder, not on the submodules with the original datasets. It can be run
-in two ways:
+in two ways (commands assume current working directory is `code`):
 
 * As a standalone script, e.g. `python3 03_compare_pcvs.py`. Requires installing the dependencies in `requirements.txt`
   (`pip install -r requirements.txt`).
@@ -110,7 +110,7 @@ Each of the three files contains one pitch-class vectors per chorale in the resp
   * `tpc_pcvs` The same type of pitch-class vectors, but for the complete chorale. Included for convenience or further
     comparisons between the aligned chorales for detection of encoding errors or differences between the chorale
     settings.
-* The first row corresponds to the `Riemenschneider` index in the `riemenschneider.csv`, as explained in the 
+* The first column corresponds to the `Riemenschneider` index in the `riemenschneider.csv`, as explained in the 
   previous section. That is to say, `krn.csv` is correctly aligned with the catalogue, the other two files are not,
   even if they use the same index.
 * `krn.csv` omits R. 150 (because it's not 4-voice) and `cap.csv` is missing R. 50, 59, 103, 217, 238, 272, 325, 334, 
@@ -151,7 +151,8 @@ Note that for generating the data you need to have the following software instal
 
 * [humextra](https://github.com/craigsapp/humextra) (for converting **kern to musicxml via `hum2xml`)
 * [MuseScore 4](https://musescore.org/en/download) (for converting the datasets to `.mscz` format)
-* [ms3](https://pypi.org/project/ms3/) (for doing the batch conversion and extracting notes and measures)
+* [ms3](https://pypi.org/project/ms3/) (for doing the batch conversion and extracting notes and measures, included 
+  in `requirements.txt`)
 
 If the requirements are filled you can
 
