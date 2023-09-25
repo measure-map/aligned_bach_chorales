@@ -1,9 +1,11 @@
 [
   {
+    "ID": "1",
     "count": 1,
-    "number": 1,
-    "time_signature": "4/4",
     "qstamp": 0.0,
+    "number": 1,
+    "name": "1",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
     "start_repeat": false,
@@ -13,10 +15,12 @@
     ]
   },
   {
+    "ID": "2",
     "count": 2,
-    "number": 2,
-    "time_signature": "4/4",
     "qstamp": 4.0,
+    "number": 2,
+    "name": "2",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
     "start_repeat": false,
@@ -26,10 +30,12 @@
     ]
   },
   {
+    "ID": "3",
     "count": 3,
-    "number": 3,
-    "time_signature": "4/4",
     "qstamp": 8.0,
+    "number": 3,
+    "name": "3",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
     "start_repeat": false,
@@ -39,10 +45,12 @@
     ]
   },
   {
+    "ID": "4",
     "count": 4,
-    "number": 4,
-    "time_signature": "4/4",
     "qstamp": 12.0,
+    "number": 4,
+    "name": "4",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
     "start_repeat": false,
@@ -52,10 +60,12 @@
     ]
   },
   {
+    "ID": "5",
     "count": 5,
-    "number": 5,
-    "time_signature": "4/4",
     "qstamp": 16.0,
+    "number": 5,
+    "name": "5",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
     "start_repeat": false,
@@ -65,10 +75,12 @@
     ]
   },
   {
+    "ID": "6",
     "count": 6,
-    "number": 6,
-    "time_signature": "4/4",
     "qstamp": 20.0,
+    "number": 6,
+    "name": "6",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
     "start_repeat": false,
@@ -78,10 +90,12 @@
     ]
   },
   {
+    "ID": "7",
     "count": 7,
-    "number": 125,
-    "time_signature": "4/4",
     "qstamp": 24.0,
+    "number": 125,
+    "name": "125",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 16.0,
     "start_repeat": false,
@@ -91,10 +105,12 @@
     ]
   },
   {
+    "ID": "8",
     "count": 8,
-    "number": 126,
-    "time_signature": "4/4",
     "qstamp": 40.0,
+    "number": 126,
+    "name": "126",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 6.0,
     "start_repeat": false,
@@ -104,10 +120,12 @@
     ]
   },
   {
+    "ID": "9",
     "count": 9,
-    "number": 9,
-    "time_signature": "4/4",
     "qstamp": 46.0,
+    "number": 9,
+    "name": "9",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
     "start_repeat": false,
@@ -117,10 +135,12 @@
     ]
   },
   {
+    "ID": "10",
     "count": 10,
-    "number": 10,
-    "time_signature": "4/4",
     "qstamp": 50.0,
+    "number": 10,
+    "name": "10",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
     "start_repeat": false,

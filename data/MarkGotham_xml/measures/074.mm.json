@@ -1,9 +1,11 @@
 [
   {
+    "ID": "1",
     "count": 1,
-    "number": 0,
-    "time_signature": "4/4",
     "qstamp": 0.0,
+    "number": 0,
+    "name": "0",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 1.0,
     "start_repeat": false,
@@ -13,10 +15,12 @@
     ]
   },
   {
+    "ID": "2",
     "count": 2,
-    "number": 1,
-    "time_signature": "4/4",
     "qstamp": 1.0,
+    "number": 1,
+    "name": "1",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
     "start_repeat": false,
@@ -26,10 +30,12 @@
     ]
   },
   {
+    "ID": "3",
     "count": 3,
-    "number": 2,
-    "time_signature": "4/4",
     "qstamp": 5.0,
+    "number": 2,
+    "name": "2",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
     "start_repeat": false,
@@ -39,10 +45,12 @@
     ]
   },
   {
+    "ID": "4",
     "count": 4,
-    "number": 3,
-    "time_signature": "4/4",
     "qstamp": 9.0,
+    "number": 3,
+    "name": "3",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
     "start_repeat": false,
@@ -52,10 +60,12 @@
     ]
   },
   {
+    "ID": "5",
     "count": 5,
-    "number": 1051,
-    "time_signature": "4/4",
     "qstamp": 13.0,
+    "number": 1051,
+    "name": "1051",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 3.0,
     "start_repeat": false,
@@ -66,10 +76,12 @@
     ]
   },
   {
+    "ID": "6",
     "count": 6,
-    "number": 1052,
-    "time_signature": "4/4",
     "qstamp": 16.0,
+    "number": 1052,
+    "name": "1052",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 1.0,
     "start_repeat": false,
@@ -79,10 +91,12 @@
     ]
   },
   {
+    "ID": "7",
     "count": 7,
-    "number": 6,
-    "time_signature": "4/4",
     "qstamp": 17.0,
+    "number": 6,
+    "name": "6",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
     "start_repeat": false,
@@ -92,10 +106,12 @@
     ]
   },
   {
+    "ID": "8",
     "count": 8,
-    "number": 7,
-    "time_signature": "4/4",
     "qstamp": 21.0,
+    "number": 7,
+    "name": "7",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
     "start_repeat": false,
@@ -105,10 +121,12 @@
     ]
   },
   {
+    "ID": "9",
     "count": 9,
-    "number": 8,
-    "time_signature": "4/4",
     "qstamp": 25.0,
+    "number": 8,
+    "name": "8",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
     "start_repeat": false,
@@ -118,10 +136,12 @@
     ]
   },
   {
+    "ID": "10",
     "count": 10,
-    "number": 9,
-    "time_signature": "4/4",
     "qstamp": 29.0,
+    "number": 9,
+    "name": "9",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
     "start_repeat": false,
@@ -131,10 +151,12 @@
     ]
   },
   {
+    "ID": "11",
     "count": 11,
-    "number": 10,
-    "time_signature": "4/4",
     "qstamp": 33.0,
+    "number": 10,
+    "name": "10",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
     "start_repeat": false,
@@ -144,10 +166,12 @@
     ]
   },
   {
+    "ID": "12",
     "count": 12,
-    "number": 11,
-    "time_signature": "4/4",
     "qstamp": 37.0,
+    "number": 11,
+    "name": "11",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
     "start_repeat": false,
@@ -157,10 +181,12 @@
     ]
   },
   {
+    "ID": "13",
     "count": 13,
-    "number": 12,
-    "time_signature": "4/4",
     "qstamp": 41.0,
+    "number": 12,
+    "name": "12",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
     "start_repeat": false,
@@ -170,10 +196,12 @@
     ]
   },
   {
+    "ID": "14",
     "count": 14,
-    "number": 13,
-    "time_signature": "4/4",
     "qstamp": 45.0,
+    "number": 13,
+    "name": "13",
+    "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 3.0,
     "start_repeat": false,
