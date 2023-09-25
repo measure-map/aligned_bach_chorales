@@ -6,7 +6,7 @@
 #       extension: .py
 #       format_name: percent
 #       format_version: '1.3'
-#       jupytext_version: 1.14.4
+#       jupytext_version: 1.15.2
 #   kernelspec:
 #     display_name: base
 #     language: python
@@ -33,7 +33,7 @@ PCV_FOLDER = "tpc_2_pcvs" # which pre-computed pitch-class vectors to use
 # %% [markdown]
 # ## Loading metadata
 
-# %% tags=[]
+# %%
 R = pd.read_csv("riemenschneider.csv", index_col=0)
 R
 
@@ -96,7 +96,7 @@ xml_aligned = PCVS['xml_aligned']
 # %% [markdown]
 # ## Computing summed absolute errors between pitch-class vectors of two datasets
 
-# %% tags=[]
+# %%
 def is_null_row(df: pd.DataFrame) -> pd.Series:
     return (df.isna() | (df == 0)).all(axis=1)
 
@@ -185,11 +185,11 @@ get_best_matches_for_piece(cap.loc[87], krn)
 # %% [markdown]
 # ## Trying to match up
 
-# %% tags=[]
+# %%
 MD_COLS = dict(
     cap = "dcml_file",
     krn = "krn_file",
-    xml = "ms_file",
+    xml = "xml_file",
     groundtruth = "krn_title",
 )
 def get_filenames(dataset):
@@ -198,8 +198,10 @@ def get_filenames(dataset):
         return R[MD_COLS[dataset]]
     if dataset == 'cap_aligned':
         return reindex_cpe_with_riemenschneider(R.dcml_file)
-    if dataset == 'xml_aligned':
-        return reindex_cpe_with_riemenschneider(R.xml_file)
+    # not required anymore since the files have been renamed accordin to Riemenschneider 
+    # https://github.com/MarkGotham/Chorale-Corpus/commit/b2cafc917b1aa23c247e453326630132d59fc60a
+    # if dataset == 'xml_aligned':
+    #     return reindex_cpe_with_riemenschneider(R.xml_file)
     raise ValueError(dataset)
     
 def print_title(title, frame_symbol="-", main_title=False):
@@ -268,7 +270,7 @@ cap_aligned_krn = match_dataset('cap_aligned', 'krn')
 # %% [markdown]
 # ### DCML (aligned) <-> krn
 
-# %% tags=[]
+# %%
 def filter_matches(df, unmatched=True):
     """If unmatched=True (default), get those pieces that have not been unequivocally matched and show match candidate(s). Otherwise show those that have been matched."""
     df = df[~df.isna().any(axis=1)]
@@ -280,7 +282,7 @@ def filter_matches(df, unmatched=True):
 filter_matches(cap_aligned_krn)
 
 
-# %% tags=[]
+# %%
 def get_unequivocal_matches(df, only_differing=True, acceptable_error = 0.0):
     if only_differing:
         df = filter_matches(df, unmatched=True)
@@ -290,7 +292,7 @@ unequivocal_matches = get_unequivocal_matches(cap_aligned_krn, only_differing=Fa
 unequivocal_matches
 
 
-# %% tags=[]
+# %%
 def get_tentative_matches(df, acceptable_error = 0.0):
     return df[df.error > acceptable_error].copy()
 
@@ -313,7 +315,8 @@ groundtruth_update = {
     174: ('krn',),  # dcml Sopran m. 1, b. 2 has G not F, Bass m. 2 b. 3 has Ab not G#
     194: ('krn',),  # dcml Alto mm. 1-2 has F not E#
     199: ('cap',), # krn Alto m. 0 upbeat has Eb not E
-    204: ('cap',), # krn Alto has additional transition C4 m. 1, b. 4
+    # the following mismatch was addressed in the krn dataset via commit 4448486 (https://github.com/craigsapp/bach-370-chorales/commit/44484866646498bd521c0d4bac73e72d6ed5f0a3)
+    # 204: ('cap',), # krn Alto has additional transition C4 m. 1, b. 4
     216: ('krn',),  # dcml Bass m. 2 has C not B#
     231: ('krn',),  # dcml Bass m. 1, b. 2 has F not F#
     248: ('krn',),  # dcml beginning is set slightly differently
@@ -369,7 +372,7 @@ PCVS["groundtruth"] = groundtruth_pcvs
 groundtruth_pcvs.to_csv('groundtruth_pcvs.csv')
 pd.concat([groundtruth_selector.rename('source_dataset'), groundtruth_pcvs], axis=1).head()
 
-# %% tags=[]
+# %%
 aligned = pd.concat([
     R.krn_file,
     reindex_cpe_with_riemenschneider(R.dcml_file),
@@ -379,10 +382,10 @@ aligned
 # %% [markdown]
 # ## XML vs. groundtruth
 
-# %% tags=[]
-xml_aligned_krn = match_dataset('xml_aligned', 'groundtruth')
+# %%
+xml_aligned_krn = match_dataset('xml', 'groundtruth')
 
-# %% tags=[]
+# %%
 unequivocal_matches = get_unequivocal_matches(xml_aligned_krn, only_differing=False)
 unequivocal_matches
 
@@ -393,8 +396,8 @@ get_tentative_matches(xml_aligned_krn)
 # 253 uses split bars and first/second ending, like print (although non-sensical)
 # 272 same
 
-# %% tags=[]
-aligned = pd.concat([aligned, reindex_cpe_with_riemenschneider(R.xml_file)], axis=1)
+# %%
+aligned = pd.concat([aligned, R.xml_file], axis=1)
 aligned.to_csv("../aligned_files.csv")
 
 # %%
