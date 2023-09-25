@@ -6,7 +6,7 @@
 #       extension: .py
 #       format_name: percent
 #       format_version: '1.3'
-#       jupytext_version: 1.14.4
+#       jupytext_version: 1.15.2
 #   kernelspec:
 #     display_name: base
 #     language: python
@@ -31,7 +31,7 @@ print(f"Changing the current working directory to {cwd}")
 os.chdir(cwd)
 
 
-# %% [markdown] tags=[]
+# %% [markdown]
 # ## Reading the table from bach-corales.com
 #
 # Compared to the [table on Wikipedia](https://en.wikipedia.org/wiki/List_of_chorale_harmonisations_by_Johann_Sebastian_Bach), 
@@ -39,7 +39,7 @@ os.chdir(cwd)
 # on the chorale melody and on the beginning of the lyrics. We will use it as our main metadata table by preparing the `R`
 # column into a numerical `Riemenschneider` index and add the pre-alignment filenames of the various datasets.
 
-# %% tags=[]
+# %%
 def get_table(url_or_html, 
               n=0,
              na_values=["9999", "ZZZZ"],
@@ -82,11 +82,11 @@ krn_metadata
 # %% [markdown]
 # ## Reading in filenames from DCMLab/bach_chorales
 
-# %% tags=[]
+# %%
 print("Discovering files in ../DCMLab_cap/MS3")
 dcml_chorales = os.path.expanduser("../DCMLab_cap/MS3")
-dcml_files = get_dcml_files(dcml_chorales, extension='.mscx', remove_extension=False)
-title_list = [fname_title[0] if fname_title else None for fname_title in dcml_files.values()]
+cap_files = get_dcml_files(dcml_chorales, extension='.mscx', remove_extension=False)
+title_list = [fname_title[0] if fname_title else None for fname_title in cap_files.values()]
 
 
 # %% [markdown]
@@ -122,7 +122,7 @@ riemenschneider = pd.concat([
     krn_metadata.title.rename('krn_title'),
     pd.Series([f"chor{str(i).zfill(3)}.krn" if i != 150 else None for i in range(1, 372)], index=riemenschneider.index, name='krn_file'),
     pd.Series([f"{str(i).zfill(3)}/short_score.mxl" for i in range(1, 372)], index=riemenschneider.index, name='xml_file'),
-    pd.Series(title_list, index=riemenschneider.index, name='dcml_file'),
+    pd.Series(title_list, index=riemenschneider.index, name='cap_file'),
     make_bwv_column(riemenschneider.BWV).rename('bwv'),
     riemenschneider
 ], axis=1)

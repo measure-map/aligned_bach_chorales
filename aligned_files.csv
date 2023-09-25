@@ -1,11 +1,11 @@
-Riemenschneider,krn_file,dcml_file,xml_file
+Riemenschneider,krn_file,cap_file,xml_file
 1,chor001.krn,001 Aus meines Herzens Grunde.mscx,001/short_score.mxl
 2,chor002.krn,"002 Ich danke dir, lieber Herre.mscx",002/short_score.mxl
 3,chor003.krn,"003 Ach Gott, vom Himmel sieh darein.mscx",003/short_score.mxl
 4,chor004.krn,004 Es ist das Heil uns kommen her.mscx,004/short_score.mxl
 5,chor005.krn,005 An Wasserflüssen Babylon.mscx,005/short_score.mxl
-6,chor006.krn,"007 Christus, der ist mein Leben.mscx",007/short_score.mxl
-7,chor007.krn,"006 Nun lob, mein Seel, den Herren.mscx",006/short_score.mxl
+6,chor006.krn,"007 Christus, der ist mein Leben.mscx",006/short_score.mxl
+7,chor007.krn,"006 Nun lob, mein Seel, den Herren.mscx",007/short_score.mxl
 8,chor008.krn,"008 Freuet euch, ihr Christen alle.mscx",008/short_score.mxl
 9,chor009.krn,"009 Ermuntre dich, mein schwacher Geist.mscx",009/short_score.mxl
 10,chor010.krn,010 Aus tiefer Not schrei ich zu dir.mscx,010/short_score.mxl
@@ -31,9 +31,9 @@ Riemenschneider,krn_file,dcml_file,xml_file
 30,chor030.krn,"030 Jesus Christus, unser Heiland.mscx",030/short_score.mxl
 31,chor031.krn,"031 Ach lieben Christen, seid getrost.mscx",031/short_score.mxl
 32,chor032.krn,032 Nun danket alle Gott.mscx,032/short_score.mxl
-33,chor033.krn,"035 Herr, ich habe mißgehandelt.mscx",035/short_score.mxl
-34,chor034.krn,"033 Erbarm dich mein, o Herre Gott.mscx",033/short_score.mxl
-35,chor035.krn,034 Gott des Himmels und der Erden.mscx,034/short_score.mxl
+33,chor033.krn,"035 Herr, ich habe mißgehandelt.mscx",033/short_score.mxl
+34,chor034.krn,"033 Erbarm dich mein, o Herre Gott.mscx",034/short_score.mxl
+35,chor035.krn,034 Gott des Himmels und der Erden.mscx,035/short_score.mxl
 36,chor036.krn,036 Nun bitten wir den heiligen Geist.mscx,036/short_score.mxl
 37,chor037.krn,"037 Jesu, der du meine Seele.mscx",037/short_score.mxl
 38,chor038.krn,038 Straf mich nicht in deinem Zorn.mscx,038/short_score.mxl
@@ -43,28 +43,28 @@ Riemenschneider,krn_file,dcml_file,xml_file
 42,chor042.krn,"042 Du Friedefürst, Herr Jesu Christ.mscx",042/short_score.mxl
 43,chor043.krn,"043 Liebster Gott, wenn werd ich sterben.mscx",043/short_score.mxl
 44,chor044.krn,"044 Machs mit mir Gott, nach deiner Güt.mscx",044/short_score.mxl
-45,chor045.krn,"046 Kommt her zu mir, spricht Gottes Sohn.mscx",046/short_score.mxl
-46,chor046.krn,"045 Vom Himmel hoch, da komm ich her.mscx",045/short_score.mxl
+45,chor045.krn,"046 Kommt her zu mir, spricht Gottes Sohn.mscx",045/short_score.mxl
+46,chor046.krn,"045 Vom Himmel hoch, da komm ich her.mscx",046/short_score.mxl
 47,chor047.krn,047 Vater unser im Himmelreich.mscx,047/short_score.mxl
 48,chor048.krn,"048 Ach wie nichtig, ach wie flüchtig.mscx",048/short_score.mxl
 49,chor049.krn,049 Mit Fried und Freud ich fahr dahin.mscx,049/short_score.mxl
 50,chor050.krn,,050/short_score.mxl
-51,chor051.krn,"053 Gelobet seist du, Jesu Christ.mscx",053/short_score.mxl
-52,chor052.krn,051 Wenn mein Stündlein vorhanden ist.mscx,051/short_score.mxl
-53,chor053.krn,052 Das neugeborne Kindelein.mscx,052/short_score.mxl
+51,chor051.krn,"053 Gelobet seist du, Jesu Christ.mscx",051/short_score.mxl
+52,chor052.krn,051 Wenn mein Stündlein vorhanden ist.mscx,052/short_score.mxl
+53,chor053.krn,052 Das neugeborne Kindelein.mscx,053/short_score.mxl
 54,chor054.krn,"054 Lobt Gott, ihr Christen allzugleich.mscx",054/short_score.mxl
-55,chor055.krn,057 Wir Christenleut.mscx,057/short_score.mxl
-56,chor056.krn,055 Christum wir sollen loben schon.mscx,055/short_score.mxl
-57,chor057.krn,"060 O Traurigkeit, o Herzeleid.mscx",060/short_score.mxl
-58,chor058.krn,"056 Herzlich lieb hab ich dich, o Herr.mscx",056/short_score.mxl
-59,chor059.krn,,058/short_score.mxl
-60,chor060.krn,061 Ich freue mich in dir.mscx,061/short_score.mxl
-61,chor061.krn,"059 Jesu Leiden, Pein und Tod.mscx",059/short_score.mxl
-62,chor062.krn,066 Wer nur den lieben Gott läßt walten.mscx,066/short_score.mxl
-63,chor063.krn,062 Nun ruhen alle Wälder.mscx,062/short_score.mxl
-64,chor064.krn,"063 Freu dich sehr, o meine Seele.mscx",063/short_score.mxl
-65,chor065.krn,"064 Was Gott tut, das ist wohlgetan.mscx",064/short_score.mxl
-66,chor066.krn,065 Christ unser Herr zum Jordan kam.mscx,065/short_score.mxl
+55,chor055.krn,057 Wir Christenleut.mscx,055/short_score.mxl
+56,chor056.krn,055 Christum wir sollen loben schon.mscx,056/short_score.mxl
+57,chor057.krn,"060 O Traurigkeit, o Herzeleid.mscx",057/short_score.mxl
+58,chor058.krn,"056 Herzlich lieb hab ich dich, o Herr.mscx",058/short_score.mxl
+59,chor059.krn,,059/short_score.mxl
+60,chor060.krn,061 Ich freue mich in dir.mscx,060/short_score.mxl
+61,chor061.krn,"059 Jesu Leiden, Pein und Tod.mscx",061/short_score.mxl
+62,chor062.krn,066 Wer nur den lieben Gott läßt walten.mscx,062/short_score.mxl
+63,chor063.krn,062 Nun ruhen alle Wälder.mscx,063/short_score.mxl
+64,chor064.krn,"063 Freu dich sehr, o meine Seele.mscx",064/short_score.mxl
+65,chor065.krn,"064 Was Gott tut, das ist wohlgetan.mscx",065/short_score.mxl
+66,chor066.krn,065 Christ unser Herr zum Jordan kam.mscx,066/short_score.mxl
 67,chor067.krn,"067 Freu dich sehr, o meine Seele.mscx",067/short_score.mxl
 68,chor068.krn,068 Wenn wir in höchsten Nöten sein.mscx,068/short_score.mxl
 69,chor069.krn,"069 Komm, heiliger Geist, Herre Gott.mscx",069/short_score.mxl
@@ -78,14 +78,14 @@ Riemenschneider,krn_file,dcml_file,xml_file
 77,chor077.krn,"077 In dich hab ich gehoffet, Herr.mscx",077/short_score.mxl
 78,chor078.krn,"078 Herzliebster Jesu, was hast du verbrochen.mscx",078/short_score.mxl
 79,chor079.krn,079 Heut triumphieret Gottes Sohn.mscx,079/short_score.mxl
-80,chor080.krn,087 O Haupt voll Blut und Wunden.mscx,087/short_score.mxl
-81,chor081.krn,"080 Christus, der uns selig macht.mscx",080/short_score.mxl
-82,chor082.krn,081 O großer Gott von Macht.mscx,081/short_score.mxl
-83,chor083.krn,"082 Jesu Leiden, Pein und Tod.mscx",082/short_score.mxl
-84,chor084.krn,083 Nun bitten wir den Heiligen Geist.mscx,083/short_score.mxl
-85,chor085.krn,"084 O Gott, du frommer Gott.mscx",084/short_score.mxl
-86,chor086.krn,085 Wie schön leuchtet der Morgenstern.mscx,085/short_score.mxl
-87,chor087.krn,"086 Du, o schönes Weltgebäude.mscx",086/short_score.mxl
+80,chor080.krn,087 O Haupt voll Blut und Wunden.mscx,080/short_score.mxl
+81,chor081.krn,"080 Christus, der uns selig macht.mscx",081/short_score.mxl
+82,chor082.krn,081 O großer Gott von Macht.mscx,082/short_score.mxl
+83,chor083.krn,"082 Jesu Leiden, Pein und Tod.mscx",083/short_score.mxl
+84,chor084.krn,083 Nun bitten wir den Heiligen Geist.mscx,084/short_score.mxl
+85,chor085.krn,"084 O Gott, du frommer Gott.mscx",085/short_score.mxl
+86,chor086.krn,085 Wie schön leuchtet der Morgenstern.mscx,086/short_score.mxl
+87,chor087.krn,"086 Du, o schönes Weltgebäude.mscx",087/short_score.mxl
 88,chor088.krn,088 Helft mir Gottes Güte preisen.mscx,088/short_score.mxl
 89,chor089.krn,089 O Haupt voll Blut und Wunden.mscx,089/short_score.mxl
 90,chor090.krn,"090 Hast du denn, Jesu, dein....mscx",090/short_score.mxl
@@ -132,10 +132,10 @@ Riemenschneider,krn_file,dcml_file,xml_file
 131,chor131.krn,"131 Liebster Jesu, wir sind hier.mscx",131/short_score.mxl
 132,chor132.krn,"132 Kyrie, Gott Vater in Ewigkeit.mscx",132/short_score.mxl
 133,chor133.krn,133 Wir glauben all an einen Gott.mscx,133/short_score.mxl
-134,chor134.krn,"137 Du, o schönes Weltgebäude.mscx",137/short_score.mxl
-135,chor135.krn,134 Gott der Vater wohn uns bei.mscx,134/short_score.mxl
+134,chor134.krn,"137 Du, o schönes Weltgebäude.mscx",134/short_score.mxl
+135,chor135.krn,134 Gott der Vater wohn uns bei.mscx,135/short_score.mxl
 136,chor136.krn,"136 Herr Jesu Christ, dich zu uns wend.mscx",136/short_score.mxl
-137,chor137.krn,"135 Wer Gott vertraut, hat wohl gebaut.mscx",135/short_score.mxl
+137,chor137.krn,"135 Wer Gott vertraut, hat wohl gebaut.mscx",137/short_score.mxl
 138,chor138.krn,"138 Jesu, meine Freude.mscx",138/short_score.mxl
 139,chor139.krn,139 Warum sollt ich mich denn grämen.mscx,139/short_score.mxl
 140,chor140.krn,140 In allen meinen Taten.mscx,140/short_score.mxl
@@ -162,10 +162,10 @@ Riemenschneider,krn_file,dcml_file,xml_file
 161,chor161.krn,"161 Ihr Gestirn, ihr hohlen Lüfte.mscx",161/short_score.mxl
 162,chor162.krn,162 Das alte Jahr vergangen ist.mscx,162/short_score.mxl
 163,chor163.krn,163 Für Freuden laßt uns springen.mscx,163/short_score.mxl
-164,chor164.krn,"167 Herr Gott, dich loben wir alle.mscx",167/short_score.mxl
+164,chor164.krn,"167 Herr Gott, dich loben wir alle.mscx",164/short_score.mxl
 165,chor165.krn,"165 O Lamm Gottes, unschuldig.mscx",165/short_score.mxl
 166,chor166.krn,166 Es stehn vor Gottes Throne.mscx,166/short_score.mxl
-167,chor167.krn,164 Du großer Schmerzensmann.mscx,164/short_score.mxl
+167,chor167.krn,164 Du großer Schmerzensmann.mscx,167/short_score.mxl
 168,chor168.krn,"168 Heut ist, o Mensch, ein großer Trauertag.mscx",168/short_score.mxl
 169,chor169.krn,"169 Jesu, der du selbsten wohl.mscx",169/short_score.mxl
 170,chor170.krn,"170 Nun komm, der Heiden Heiland.mscx",170/short_score.mxl

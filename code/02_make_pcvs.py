@@ -6,7 +6,7 @@
 #       extension: .py
 #       format_name: percent
 #       format_version: '1.3'
-#       jupytext_version: 1.14.4
+#       jupytext_version: 1.15.2
 #   kernelspec:
 #     display_name: base
 #     language: python
@@ -80,7 +80,7 @@ def get_pcv(df,
 get_pcv(CAP[1])
 
 
-# %% tags=[]
+# %%
 def get_concatenated_pcvs(notes_dict: Dict[str, pd.DataFrame],
                           name: str,
                           column: str = 'tpc',
@@ -99,7 +99,7 @@ def get_concatenated_pcvs(notes_dict: Dict[str, pd.DataFrame],
 
 get_concatenated_pcvs(CAP, 'cap')
 
-# %% tags=[]
+# %%
 krn_notes_path = os.path.join(DATA_FOLDER, "craigsapp_krn", "notes")
 print(f"Loading notes tables from {krn_notes_path}...")
 number_filepath_tuples = [(file[4:7], os.path.join(krn_notes_path, file)) for file in os.listdir(krn_notes_path) if file.endswith('.tsv')]
@@ -110,6 +110,6 @@ get_concatenated_pcvs(KRN, 'krn')
 xml_notes_path = os.path.join(DATA_FOLDER, "MarkGotham_xml", "notes")
 print(f"Loading notes tables from {xml_notes_path}...")
 
-number_filepath_tuples = [(int(number), os.path.join(xml_notes_path, file)) for file in os.listdir(xml_notes_path) if (number := file[:3]).isdigit()]
+number_filepath_tuples = [(int(number), os.path.join(xml_notes_path, file)) for file in os.listdir(xml_notes_path) if file.endswith('.tsv') and (number := file[:3]).isdigit()]
 XML = load_notes_tables(number_filepath_tuples)
 get_concatenated_pcvs(XML, 'xml')

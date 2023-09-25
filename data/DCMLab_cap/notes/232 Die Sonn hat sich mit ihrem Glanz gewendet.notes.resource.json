@@ -1,0 +1,27 @@
+{
+  "name": "232_die_sonn_hat_sich_mit_ihrem_glanz_gewendet.notes",
+  "type": "table",
+  "path": "232 Die Sonn hat sich mit ihrem Glanz gewendet.notes.tsv",
+  "scheme": "file",
+  "format": "tsv",
+  "mediatype": "text/tsv",
+  "encoding": "utf-8",
+  "dialect": {
+    "csv": {
+      "delimiter": "\t"
+    }
+  },
+  "schema": "https://raw.githubusercontent.com/DCMLab/frictionless_schemas/main/notes/VvF3LJXVnKvxHg.schema.yaml",
+  "creator": {
+    "@context": "https://schema.org/",
+    "@type": "SoftwareApplication",
+    "@id": "https://pypi.org/project/ms3/",
+    "name": "ms3",
+    "description": "A parser for MuseScore 3 files and data factory for annotated music corpora.",
+    "author": {
+      "name": "Johannes Hentschel",
+      "@id": "https://orcid.org/0000-0002-1986-9545"
+    },
+    "softwareVersion": "2.2.2.post1.dev45+g9ddaf22"
+  }
+}
