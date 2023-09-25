@@ -187,7 +187,7 @@ get_best_matches_for_piece(cap.loc[87], krn)
 
 # %%
 MD_COLS = dict(
-    cap = "dcml_file",
+    cap = "cap_file",
     krn = "krn_file",
     xml = "xml_file",
     groundtruth = "krn_title",
@@ -197,7 +197,7 @@ def get_filenames(dataset):
     if dataset in MD_COLS:
         return R[MD_COLS[dataset]]
     if dataset == 'cap_aligned':
-        return reindex_cpe_with_riemenschneider(R.dcml_file)
+        return reindex_cpe_with_riemenschneider(R.cap_file)
     # not required anymore since the files have been renamed accordin to Riemenschneider 
     # https://github.com/MarkGotham/Chorale-Corpus/commit/b2cafc917b1aa23c247e453326630132d59fc60a
     # if dataset == 'xml_aligned':
@@ -375,7 +375,7 @@ pd.concat([groundtruth_selector.rename('source_dataset'), groundtruth_pcvs], axi
 # %%
 aligned = pd.concat([
     R.krn_file,
-    reindex_cpe_with_riemenschneider(R.dcml_file),
+    reindex_cpe_with_riemenschneider(R.cap_file),
 ], axis=1)
 aligned
 

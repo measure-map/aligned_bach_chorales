@@ -29,7 +29,7 @@ Philipp Kirnberger and Carl Philipp Emanuel Bach. The datasets are:
 
 The file aligns the file names from the three datasets with the Riemenschneider catalog:
 
-| Riemenschneider | krn_file    | dcml_file                                               | xml_file            |
+| Riemenschneider | krn_file    | cap_file                                               | xml_file            |
 |-----------------|-------------|---------------------------------------------------------|---------------------|
 | 1               | chor001.krn | 001 Aus meines Herzens Grunde.mscx                      | 001/short_score.mxl |
 | 2               | chor002.krn | 002 Ich danke dir, lieber Herre.mscx                    | 002/short_score.mxl |

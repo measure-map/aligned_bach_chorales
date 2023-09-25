@@ -85,8 +85,8 @@ krn_metadata
 # %%
 print("Discovering files in ../DCMLab_cap/MS3")
 dcml_chorales = os.path.expanduser("../DCMLab_cap/MS3")
-dcml_files = get_dcml_files(dcml_chorales, extension='.mscx', remove_extension=False)
-title_list = [fname_title[0] if fname_title else None for fname_title in dcml_files.values()]
+cap_files = get_dcml_files(dcml_chorales, extension='.mscx', remove_extension=False)
+title_list = [fname_title[0] if fname_title else None for fname_title in cap_files.values()]
 
 
 # %% [markdown]
@@ -122,7 +122,7 @@ riemenschneider = pd.concat([
     krn_metadata.title.rename('krn_title'),
     pd.Series([f"chor{str(i).zfill(3)}.krn" if i != 150 else None for i in range(1, 372)], index=riemenschneider.index, name='krn_file'),
     pd.Series([f"{str(i).zfill(3)}/short_score.mxl" for i in range(1, 372)], index=riemenschneider.index, name='xml_file'),
-    pd.Series(title_list, index=riemenschneider.index, name='dcml_file'),
+    pd.Series(title_list, index=riemenschneider.index, name='cap_file'),
     make_bwv_column(riemenschneider.BWV).rename('bwv'),
     riemenschneider
 ], axis=1)
