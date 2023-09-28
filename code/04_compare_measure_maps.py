@@ -75,6 +75,8 @@ def remove_extension(filename):
     except Exception:
         return filename
 
+def remove_filename(rel_path: str):
+    return os.path.dirname(rel_path)
 
 
 # %%
@@ -88,11 +90,6 @@ krn_xml_mm_path = os.path.join(krn_msc_mm_path, "musicxml")
 krn_mm_filenames = alignment.krn_file.map(remove_extension) + '.mm.json'
 
 # %% [markdown]
-# ## Comparing analysis MMs against all score MMs
-
-# %%
-
-# %% [markdown]
 # ## Comparing MMs for `.krn` against those for their `.musicxml` and `.msc` conversions
 
 # %%
@@ -102,5 +99,59 @@ krn_xml_mms = load_measure_maps(krn_xml_mm_path, krn_mm_filenames)
 
 # %%
 are_measure_maps_identical(krn_krn_mms, krn_xml_mms, number=False, end_repeat=False, next=False)
+
+# %% [markdown]
+# ## Comparing analysis MMs against all score MMs
+
+# %%
+xml_mm_path = os.path.abspath("../data/MarkGotham_xml/measuremaps/")
+xml_mxl_mm_filenames = alignment.xml_file.map(remove_extension) + ".mm.json"
+xml_folders = alignment.xml_file.map(remove_filename)
+xml_msc_mm_filenames = xml_folders + ".mm.json"
+analysis_paths = xml_folders.map(lambda folder: os.path.join(folder, "analysis.mm.json"))
+
+# %%
+cap_mm_path = os.path.abspath("../data/DCMLab_cap/measuremaps/")
+cap_mm_filenames = alignment.cap_file.map(remove_extension) + ".mm.json"
+
+# %%
+xml_mxl_mms = load_measure_maps(xml_mm_path, xml_mxl_mm_filenames)
+xml_msc_mms = load_measure_maps(xml_mm_path, xml_msc_mm_filenames)
+analysis_mms = load_measure_maps(xml_mm_path, analysis_paths)
+cap_mms = load_measure_maps(cap_mm_path, cap_mm_filenames)
+
+
+# %%
+def quick_diagnosis(
+        preferred_mms: Dict[int, MeasureMap],
+        other_mms: Dict[int, MeasureMap],
+        ID: bool = False,
+        count: bool = True,
+        qstamp: bool = True,
+        number: bool = True,
+        name: bool = False,
+        time_signature: bool = True,
+        nominal_length: bool = True,
+        actual_length: bool = True,
+        start_repeat: bool = True,
+        end_repeat: bool = True,
+        next: bool = True,
+):
+    """Assumes the two dicts have the same length and identical keys."""
+    results = {}
+    for (R, preferred), other in zip(preferred_mms.items(), other_mms.values()):
+        if preferred is None or other is None:
+            print(f"Skipped R. {R}")
+            continue
+        comparison = Compare(preferred, other)
+        result = comparison.quick_diagnosis(
+            ID=ID, count=count, qstamp=qstamp, number=number, name=name, time_signature=time_signature, nominal_length=nominal_length, 
+            actual_length=actual_length, start_repeat=start_repeat, end_repeat=end_repeat, next=next)
+        results[R] = result
+    return pd.Series(results)
+
+comparison = quick_diagnosis(analysis_mms, xml_mxl_mms)
+print(f"N = {len(comparison)}")
+pd.concat([comparison.value_counts(), comparison.value_counts(normalize=True)], axis=1)
 
 # %%
