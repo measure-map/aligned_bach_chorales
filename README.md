@@ -147,12 +147,17 @@ If you want to be able to re-generate the data, you need to clone the repository
 
     git clone --recurse-submodules https://github.com/johentsch/aligned_bach_chorales.git
 
+In case you have already cloned the repository without the submodules, you can activate them later:
+
+    git submodule update --init --recursive
+
 Note that for generating the data you need to have the following software installed:
 
 * [humextra](https://github.com/craigsapp/humextra) (for converting **kern to musicxml via `hum2xml`)
 * [MuseScore 4](https://musescore.org/en/download) (for converting the datasets to `.mscz` format)
 * [ms3](https://pypi.org/project/ms3/) (for doing the batch conversion and extracting notes and measures, included 
   in `requirements.txt`)
+* `pip install git+https://github.com/measure-map/pyMeasureMap` (for the MM command)
 
 If the requirements are filled you can
 

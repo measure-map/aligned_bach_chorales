@@ -476,7 +476,10 @@ function rename() {
 }
 
 function extract() {
-    ms3 extract -a -d data -M measures -MM measures -N notes -D
+    MM extract -d craigsapp_krn/kern/ -o data/craigsapp_krn/measuremaps/kern
+    MM extract -d craigsapp_krn/musicxml/ -o data/craigsapp_krn/measuremaps/musicxml
+    MM extract -d MarkGotham_xml/Bach,_Johann_Sebastian/Chorales/ -o data/MarkGotham_xml/measuremaps
+    ms3 extract -a -d data -M measures -MM measuremaps -N notes -D
 }
 
 # DESC: Main control flow

@@ -1,0 +1,120 @@
+[
+  {
+    "ID": null,
+    "count": 1,
+    "qstamp": 0.0,
+    "number": 1,
+    "name": null,
+    "time_signature": "4/4",
+    "nominal_length": 4.0,
+    "actual_length": 4.0,
+    "start_repeat": false,
+    "end_repeat": false,
+    "next": [
+      2
+    ]
+  },
+  {
+    "ID": null,
+    "count": 2,
+    "qstamp": 4.0,
+    "number": 2,
+    "name": null,
+    "time_signature": "4/4",
+    "nominal_length": 4.0,
+    "actual_length": 4.0,
+    "start_repeat": false,
+    "end_repeat": false,
+    "next": [
+      3
+    ]
+  },
+  {
+    "ID": null,
+    "count": 3,
+    "qstamp": 8.0,
+    "number": 3,
+    "name": null,
+    "time_signature": "4/4",
+    "nominal_length": 4.0,
+    "actual_length": 4.0,
+    "start_repeat": false,
+    "end_repeat": false,
+    "next": [
+      4
+    ]
+  },
+  {
+    "ID": null,
+    "count": 4,
+    "qstamp": 12.0,
+    "number": 4,
+    "name": null,
+    "time_signature": "4/4",
+    "nominal_length": 4.0,
+    "actual_length": 4.0,
+    "start_repeat": false,
+    "end_repeat": false,
+    "next": [
+      5
+    ]
+  },
+  {
+    "ID": null,
+    "count": 5,
+    "qstamp": 16.0,
+    "number": 5,
+    "name": null,
+    "time_signature": "4/4",
+    "nominal_length": 4.0,
+    "actual_length": 4.0,
+    "start_repeat": false,
+    "end_repeat": false,
+    "next": [
+      6
+    ]
+  },
+  {
+    "ID": null,
+    "count": 6,
+    "qstamp": 20.0,
+    "number": 6,
+    "name": null,
+    "time_signature": "4/4",
+    "nominal_length": 4.0,
+    "actual_length": 4.0,
+    "start_repeat": false,
+    "end_repeat": false,
+    "next": [
+      7
+    ]
+  },
+  {
+    "ID": null,
+    "count": 7,
+    "qstamp": 24.0,
+    "number": 7,
+    "name": null,
+    "time_signature": "4/4",
+    "nominal_length": 4.0,
+    "actual_length": 4.0,
+    "start_repeat": false,
+    "end_repeat": false,
+    "next": [
+      8
+    ]
+  },
+  {
+    "ID": null,
+    "count": 8,
+    "qstamp": 28.0,
+    "number": 8,
+    "name": null,
+    "time_signature": "4/4",
+    "nominal_length": 4.0,
+    "actual_length": 4.0,
+    "start_repeat": false,
+    "end_repeat": false,
+    "next": []
+  }
+]
