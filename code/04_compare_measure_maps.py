@@ -17,7 +17,7 @@
 # %load_ext autoreload 
 # %autoreload 2
 import os
-from typing import Dict
+from typing import Dict, Optional
 import pandas as pd
 from pymeasuremap.base import MeasureMap
 from pymeasuremap.compare import Compare
@@ -136,6 +136,7 @@ def quick_diagnosis(
         start_repeat: bool = True,
         end_repeat: bool = True,
         next: bool = True,
+        entries_threshold: Optional[int] = None
 ):
     """Assumes the two dicts have the same length and identical keys."""
     results = {}
@@ -146,12 +147,56 @@ def quick_diagnosis(
         comparison = Compare(preferred, other)
         result = comparison.quick_diagnosis(
             ID=ID, count=count, qstamp=qstamp, number=number, name=name, time_signature=time_signature, nominal_length=nominal_length, 
-            actual_length=actual_length, start_repeat=start_repeat, end_repeat=end_repeat, next=next)
+            actual_length=actual_length, start_repeat=start_repeat, end_repeat=end_repeat, next=next, entries_threshold=entries_threshold)
         results[R] = result
     return pd.Series(results)
 
-comparison = quick_diagnosis(analysis_mms, xml_mxl_mms)
-print(f"N = {len(comparison)}")
-pd.concat([comparison.value_counts(), comparison.value_counts(normalize=True)], axis=1)
+def summarize_quick_diagnosis(
+        preferred_mms: Dict[int, MeasureMap],
+        other_mms: Dict[int, MeasureMap],
+        ID: bool = False,
+        count: bool = True,
+        qstamp: bool = True,
+        number: bool = True,
+        name: bool = False,
+        time_signature: bool = True,
+        nominal_length: bool = True,
+        actual_length: bool = True,
+        start_repeat: bool = True,
+        end_repeat: bool = True,
+        next: bool = True,
+        entries_threshold: Optional[int] = None
+):
+    
+    comparison = quick_diagnosis(
+            preferred_mms, other_mms,
+            ID=ID, count=count, qstamp=qstamp, number=number, name=name, time_signature=time_signature, nominal_length=nominal_length, 
+            actual_length=actual_length, start_repeat=start_repeat, end_repeat=end_repeat, next=next, entries_threshold=entries_threshold)
+    return pd.concat([comparison.value_counts(), comparison.value_counts(normalize=True)], axis=1)
+
+summarize_quick_diagnosis(analysis_mms, xml_mxl_mms, entries_threshold=2)
+
+# %%
+entries_threshold = 2
+
+all_bach_summaries = {name: summarize_quick_diagnosis(analysis_mms, 
+                                                      score_mms, 
+                                                      entries_threshold=entries_threshold)
+                      for name, score_mms in (
+                          ("krn_original", krn_krn_mms),
+                          ("krn_musicxml", krn_xml_mms),
+                          ("krn_mscz", krn_msc_mms),
+                          ("xml_original", xml_mxl_mms),
+                          ("xml_mscz", xml_msc_mms),
+                          ("cap_mscz", cap_mms),
+                      )
+                     }
+
+# %%
+summaries_df = pd.concat(all_bach_summaries, axis=1).fillna(0)
+summaries_df
+
+# %%
+summaries_df.sum()
 
 # %%
