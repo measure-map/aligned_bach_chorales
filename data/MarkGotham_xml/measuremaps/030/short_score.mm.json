@@ -1,10 +1,8 @@
 [
   {
-    "ID": null,
     "count": 1,
     "qstamp": 0.0,
     "number": 1,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -15,11 +13,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 2,
     "qstamp": 4.0,
     "number": 2,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -30,11 +26,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 3,
     "qstamp": 8.0,
     "number": 3,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -45,11 +39,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 4,
     "qstamp": 12.0,
     "number": 4,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -60,11 +52,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 5,
     "qstamp": 16.0,
     "number": 5,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -75,11 +65,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 6,
     "qstamp": 20.0,
     "number": 6,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -90,11 +78,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 7,
     "qstamp": 24.0,
     "number": 7,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -105,11 +91,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 8,
     "qstamp": 28.0,
     "number": 8,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -120,11 +104,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 9,
     "qstamp": 32.0,
     "number": 9,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -135,11 +117,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 10,
     "qstamp": 36.0,
     "number": 10,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -150,11 +130,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 11,
     "qstamp": 40.0,
     "number": 11,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -165,11 +143,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 12,
     "qstamp": 44.0,
     "number": 12,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 3.0,
