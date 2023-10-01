@@ -1,0 +1,117 @@
+[
+  {
+    "count": 1,
+    "qstamp": 0.0,
+    "number": 0,
+    "time_signature": "12/8",
+    "nominal_length": 6.0,
+    "actual_length": 1.5,
+    "start_repeat": false,
+    "end_repeat": false,
+    "next": [
+      2
+    ]
+  },
+  {
+    "count": 2,
+    "qstamp": 1.5,
+    "number": 1,
+    "time_signature": "12/8",
+    "nominal_length": 6.0,
+    "actual_length": 6.0,
+    "start_repeat": false,
+    "end_repeat": false,
+    "next": [
+      3
+    ]
+  },
+  {
+    "count": 3,
+    "qstamp": 7.5,
+    "number": 2,
+    "time_signature": "12/8",
+    "nominal_length": 6.0,
+    "actual_length": 6.0,
+    "start_repeat": false,
+    "end_repeat": false,
+    "next": [
+      4
+    ]
+  },
+  {
+    "count": 4,
+    "qstamp": 13.5,
+    "number": 3,
+    "time_signature": "12/8",
+    "nominal_length": 6.0,
+    "actual_length": 6.0,
+    "start_repeat": false,
+    "end_repeat": false,
+    "next": [
+      5
+    ]
+  },
+  {
+    "count": 5,
+    "qstamp": 19.5,
+    "number": 4,
+    "time_signature": "12/8",
+    "nominal_length": 6.0,
+    "actual_length": 6.0,
+    "start_repeat": false,
+    "end_repeat": false,
+    "next": [
+      6
+    ]
+  },
+  {
+    "count": 6,
+    "qstamp": 25.5,
+    "number": 5,
+    "time_signature": "12/8",
+    "nominal_length": 6.0,
+    "actual_length": 6.0,
+    "start_repeat": false,
+    "end_repeat": false,
+    "next": [
+      7
+    ]
+  },
+  {
+    "count": 7,
+    "qstamp": 31.5,
+    "number": 6,
+    "time_signature": "12/8",
+    "nominal_length": 6.0,
+    "actual_length": 6.0,
+    "start_repeat": false,
+    "end_repeat": false,
+    "next": [
+      8
+    ]
+  },
+  {
+    "count": 8,
+    "qstamp": 37.5,
+    "number": 7,
+    "time_signature": "12/8",
+    "nominal_length": 6.0,
+    "actual_length": 6.0,
+    "start_repeat": false,
+    "end_repeat": false,
+    "next": [
+      9
+    ]
+  },
+  {
+    "count": 9,
+    "qstamp": 43.5,
+    "number": 8,
+    "time_signature": "9/8",
+    "nominal_length": 4.5,
+    "actual_length": 4.5,
+    "start_repeat": false,
+    "end_repeat": false,
+    "next": []
+  }
+]

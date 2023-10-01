@@ -7,6 +7,7 @@
       * [`01_prepare_metadata.py`](#01preparemetadatapy)
       * [`02_make_pcvs.py`](#02makepcvspy-)
       * [`03_compare_pcvs.py`](#03comparepcvspy)
+      * [`04_compare_measure_maps.py`](#04comparemeasuremapspy)
   * [Getting the data](#getting-the-data)
     * [Cloning without original datasets](#cloning-without-original-datasets)
     * [Cloning with original datasets](#cloning-with-original-datasets)
@@ -130,6 +131,11 @@ Outputs:
   included in the folder `pdf`). The pitch-class vector corresponding to the original print was adopted.
 * `../aligned_files.csv` as explained above.
 
+#### `04_compare_measure_maps.py`
+
+This notebook compares the measure maps created from the analysis.txt files against six versions of the score dataset.
+The resulting "quick diagnosis" appears in the MeasureMap paper in condensed form.
+
 ## Getting the data
 
 The repositories are included as submodules in this repository and the data pipeline can be re-run if one of them 
@@ -147,12 +153,17 @@ If you want to be able to re-generate the data, you need to clone the repository
 
     git clone --recurse-submodules https://github.com/johentsch/aligned_bach_chorales.git
 
+In case you have already cloned the repository without the submodules, you can activate them later:
+
+    git submodule update --init --recursive
+
 Note that for generating the data you need to have the following software installed:
 
 * [humextra](https://github.com/craigsapp/humextra) (for converting **kern to musicxml via `hum2xml`)
 * [MuseScore 4](https://musescore.org/en/download) (for converting the datasets to `.mscz` format)
 * [ms3](https://pypi.org/project/ms3/) (for doing the batch conversion and extracting notes and measures, included 
   in `requirements.txt`)
+* `pip install git+https://github.com/measure-map/pyMeasureMap` (for the MM command)
 
 If the requirements are filled you can
 
