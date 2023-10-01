@@ -1,10 +1,8 @@
 [
   {
-    "ID": null,
     "count": 1,
     "qstamp": 0.0,
     "number": 0,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 1.0,
@@ -15,11 +13,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 2,
     "qstamp": 1.0,
     "number": 1,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -30,11 +26,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 3,
     "qstamp": 5.0,
     "number": 2,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -45,11 +39,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 4,
     "qstamp": 9.0,
     "number": 3,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -60,11 +52,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 5,
     "qstamp": 13.0,
     "number": 4,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -75,11 +65,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 6,
     "qstamp": 17.0,
     "number": 5,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -90,11 +78,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 7,
     "qstamp": 21.0,
     "number": 6,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -106,11 +92,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 8,
     "qstamp": 25.0,
     "number": 7,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -121,11 +105,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 9,
     "qstamp": 29.0,
     "number": 8,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -136,11 +118,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 10,
     "qstamp": 33.0,
     "number": 9,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -151,11 +131,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 11,
     "qstamp": 37.0,
     "number": 10,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -166,11 +144,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 12,
     "qstamp": 41.0,
     "number": 11,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -181,11 +157,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 13,
     "qstamp": 45.0,
     "number": 12,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -196,11 +170,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 14,
     "qstamp": 49.0,
     "number": 13,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
@@ -211,11 +183,9 @@
     ]
   },
   {
-    "ID": null,
     "count": 15,
     "qstamp": 53.0,
     "number": 14,
-    "name": null,
     "time_signature": "4/4",
     "nominal_length": 4.0,
     "actual_length": 4.0,
