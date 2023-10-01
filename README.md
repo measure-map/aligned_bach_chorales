@@ -7,6 +7,7 @@
       * [`01_prepare_metadata.py`](#01preparemetadatapy)
       * [`02_make_pcvs.py`](#02makepcvspy-)
       * [`03_compare_pcvs.py`](#03comparepcvspy)
+      * [`04_compare_measure_maps.py`](#04comparemeasuremapspy)
   * [Getting the data](#getting-the-data)
     * [Cloning without original datasets](#cloning-without-original-datasets)
     * [Cloning with original datasets](#cloning-with-original-datasets)
@@ -129,6 +130,11 @@ Outputs:
   original print edition ([Breitkopf & Härtel, Leipzig 1871](https://imslp.org/wiki/Special:ReverseLookup/495149), 
   included in the folder `pdf`). The pitch-class vector corresponding to the original print was adopted.
 * `../aligned_files.csv` as explained above.
+
+#### `04_compare_measure_maps.py`
+
+This notebook compares the measure maps created from the analysis.txt files against six versions of the score dataset.
+The resulting "quick diagnosis" appears in the MeasureMap paper in condensed form.
 
 ## Getting the data
 
